@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.dwq.arcprogressbar.MainActivity">
+
+    <com.dwq.arcprogressbar.ArcProgressBar
+        android:id="@+id/arcProgressBar"
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        app:dottedDefaultColor="#BCD5E2"
+        app:dottedLineCount="60"
+        app:dottedRunColor="#21749E" />
+
+</LinearLayout>
